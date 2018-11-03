@@ -12,7 +12,8 @@ function makeSlogan() {
     headlineWords.innerHTML = firstArray[rand1] + " " + secondArray[rand2];
     }
     function init() {
-        makeSlogan();
+        const headlineWords = document.getElementById('words');
+        headlineWords.innerHTML = "ELITE HONESTY";
         sloganButton = document.getElementById("sloganButton");
         sloganButton.onclick = makeSlogan;
     }
