@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .container{
+      width: 90%;
+      height: 100%;
+      margin: auto;
+
+     
+  }
+
+  .headline-module{
+      
+      /* border-style: solid;
+      border-width: 1.5px; */
+      background-color: green;
+  }
+
+
+
+  #picture {
+    width: 100%;
+    height: auto;
+  }
+
+  h2{
+    text-align: center;
+    padding: 1.5%;
+    font-size: 3em;
+    color: yellow;
+  }
+
+  #sloganButton {
+    margin: auto;
+    display: block;
+    background-color: yellow;
+    color: green;
+    padding: 1%;
+  }
+
+  footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.75em;
+  }
+
+  /*View for tablets*/
+@media (min-width:479px){
+
+  body{
+    background-image: url("images/cricket.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+  }
+
+  .container{
+    width: 85%;
+    background-color: white;
+}
+
+  h1{
+    font-size: 2.5em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+  .headline-module{
+    width: 85%;
+    margin: auto;
+    padding: 1%;
+  }
+
+  h2{
+    font-size: 5em;
+  }
+
+  #sloganButton {
+    font-size: 2em;
+  }
+
+  footer{
+    font-size: 0.9em;
+  }
+
+}
+
+/*View for desktop*/
+@media (min-width:800px){
+
+  body{
+    background-size: 2000px auto;
+
+  }
+
+  .container{
+    width: 75%;
+    padding: 1%;
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  p{
+    font-size: 1.75em;
+  }
+
+  .headline-module{
+    width: 72%;
+  }
+}
